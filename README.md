@@ -26,5 +26,43 @@ This project is built with:
 
 ---
 
-## 📂 Folder Structure
+
+---
+
+## 📸 Screenshots
+
+_Coming soon!_
+
+---
+
+## ✨ Features
+
+- Beautiful landing page with collections
+- Product catalog with details
+- Collection-themed detail pages
+- About & Contact pages with personal branding
+- Responsive design across devices
+
+---
+
+## 👩🏽‍💻 Author
+
+**Aniah Brown**  
+Baltimore, MD  
+[Portfolio](https://aniahb101.github.io/my-website/)  
+[GitHub](https://github.com/aniahb101) | [LinkedIn](https://www.linkedin.com/in/aniah-brown-06554ab9/)  
+📧 aniah.brown01@gmail.com
+
+---
+
+## 💖 Credits
+
+Images are sourced and inspired by [devilinspired.com](https://devilinspired.com), a fashion brand showcasing the best in Lolita fashion design.
+
+---
+
+## 📜 License
+
+This project is open source and free to explore. I do not own the rights to any images it is just for show. 
+
 
