@@ -1,49 +1,43 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Hero: React.FC = () => {
   return (
-    <section className="relative h-[80vh] flex items-center">
-      {/* Background with overlay */}
+    <section className="relative h-[80vh] flex items-center justify-center text-white text-center">
       <div 
         className="absolute inset-0 bg-cover bg-center"
         style={{ 
-          backgroundImage: 'url(https://source.unsplash.com/photo-1582562124811-c09040d0a901)',
-          backgroundPosition: 'center 30%'
+          backgroundImage: 'url(https://statics.devilinspired.com/image/cache/2025/0226/0/a7364551-03c6-4e2b-0f7b-483b8e83e853-750x1000.jpg.webp)',
+          backgroundPosition: 'center 30%' 
         }}
       >
-        <div className="absolute inset-0 bg-black bg-opacity-30"></div>
+        <div className="absolute inset-0 bg-black/40" />
       </div>
-      
-      {/* Content */}
-      <div className="container relative z-10 mx-auto px-4 text-center text-white">
-        <div className="max-w-3xl mx-auto">
-          <h1 className="text-4xl md:text-6xl font-serif mb-4 animate-fade-in">
-            Discover the World of Lolita Fashion
-          </h1>
-          <p className="text-lg md:text-xl mb-8 animate-fade-in opacity-90">
-            Elegant, whimsical designs for the modern princess
-          </p>
-          <div className="flex flex-col sm:flex-row justify-center gap-4 animate-fade-in">
-            <Link 
-              to="/shop" 
-              className="px-8 py-3 bg-white text-primary-foreground rounded-full font-medium hover:bg-opacity-90 transition-colors"
-            >
-              Shop Now
-            </Link>
-            <Link 
-              to="/collections" 
-              className="px-8 py-3 bg-transparent border-2 border-white text-white rounded-full font-medium hover:bg-white hover:bg-opacity-10 transition-colors"
-            >
-              Explore Collections
-            </Link>
-          </div>
+
+      <div className="relative z-10 max-w-2xl px-4 space-y-6">
+        <h1 className="text-4xl md:text-6xl font-serif">
+          Discover the World of Lolita Fashion
+        </h1>
+        <p className="text-lg md:text-xl opacity-90">
+          Elegant, whimsical designs for the modern princess
+        </p>
+        <div className="flex flex-col sm:flex-row justify-center gap-4">
+          <Link 
+            to="/shop" 
+            className="btn-primary"
+          >
+            Shop Now
+          </Link>
+          <Link 
+            to="/collections" 
+            className="btn-outline"
+          >
+            Explore Collections
+          </Link>
         </div>
       </div>
-      
-      {/* Decorative elements */}
-      <div className="absolute bottom-0 left-0 right-0 h-16 bg-gradient-to-t from-white to-transparent"></div>
+
+      <div className="absolute bottom-0 left-0 right-0 h-16 bg-gradient-to-t from-white to-transparent" />
     </section>
   );
 };
